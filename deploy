@@ -1,0 +1,5 @@
+cd backend
+virtualenv -p python3 venv
+. ./venv/activate
+cd prj
+python3 manage.py migrate
